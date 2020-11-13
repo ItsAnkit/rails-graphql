@@ -1,3 +1,9 @@
-# rails-graphql
+### rails-graphql
+
+>>> Graphql setup
+    rails g graphql:install
+
+>>> Seed data
+    rails db:seed
 
 ---  210e8c03-8f41-4f2b-9e29-e614a96a3e11
