@@ -3,7 +3,6 @@ class Queries::FetchRepo < Queries::BaseQuery
   argument :id, ID, required: true
 
   def resolve(id:)
-    # binding.pry
     Repo.where(id: id)
   rescue ActiveRecord::RecordNotFound => e
     GraphQL::ExecutionError.new('Repo not found!')
