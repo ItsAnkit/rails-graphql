@@ -6,6 +6,10 @@ module Types
     # TODO: remove me
     field :test_field, String, null: false,
       description: "An example field added by the generator"
+
+    field :fetch_repos, resolver: Queries::FetchRepos
+    field :fetch_repo, resolver: Queries::FetchRepo
+
     def test_field
       "Hello World!"
     end
