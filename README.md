@@ -6,9 +6,9 @@
 >>> Seed data
     rails db:seed
 
-![all_repos](tmp/all_repos.png)
+![all_repos](public/all_repos.png)
 
 
-![get_repo](tmp/get_repo.png)
+![get_repo](public/get_repo.png)
 
 ---  210e8c03-8f41-4f2b-9e29-e614a96a3e11
