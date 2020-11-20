@@ -1,9 +1,9 @@
 ### rails-graphql
 
->>> Graphql setup
+#### Graphql setup
     rails g graphql:install
 
->>> Seed data
+#### Seed data
     rails db:seed
 
 ![all_repos](public/all_repos.png)
