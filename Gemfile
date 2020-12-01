@@ -43,6 +43,8 @@ gem 'rspec_junit_formatter'
 
 gem 'graphql', '1.9.18'
 
+gem 'elasticsearch-model'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
